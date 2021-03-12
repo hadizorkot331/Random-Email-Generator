@@ -8,12 +8,8 @@ service = input("Please choose a sevice: ")
 for i in range(1):
     x = random.randint(66, 91)
     email.append(chr(x))
-#1 Symbol
-for i in range(1):
-    x = random.choice(symbols)
-    email.append(x)
 #Letters
-for i in range(num_letters - 3):
+for i in range(num_letters - 2):
     x = random.randint(97, 122)
     email.append(chr(x))
 #1 Number
